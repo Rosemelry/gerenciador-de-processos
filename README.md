@@ -1,4 +1,4 @@
-GERENCIADOR DE PROCESSOS
+# GERENCIADOR DE PROCESSOS
 
 ## 📝 Introdução
 Como sabemos, um processo é uma instância de programa em execução e,
@@ -25,10 +25,11 @@ Distribuídos.
 O exercício consiste no projeto e implementação de um Gerenciador de Processos
 (GP) para o sistema operacional GNU/Linux. O GP a ser desenvolvido deverá ter as
 seguintes características:
+***
 
-* Listar processos de um determinado usuário;
+a) Listar processos de um determinado usuário;
 
-* Permitir consulta de informações sobre um determinado processo , tais como:
+b) Permitir consulta de informações sobre um determinado processo , tais como:
 
 - Identificador de Processo (PID);
 - Prioridade de execução (NICE);
@@ -36,7 +37,7 @@ seguintes características:
 - Tempo total de execução (TIME);
 - Estado (STATUS).
 
-* Permitir alterar o estado de um processo:
+c) Permitir alterar o estado de um processo:
 
 - Bloquear;
 - Continuar (caso o processo esteja bloqueado);
@@ -44,7 +45,7 @@ seguintes características:
 - Reiniciar;
 - Finalizar.
 
-* Trocar prioridade de execução;
+d) Trocar prioridade de execução;
 
 - De um processo em execução ou
 - Antes de executar um processo.
